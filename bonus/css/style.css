@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+}
+
+/* Id usati nell'intestazione*/
+
+#pattern{
+    background: rgb(43, 139, 250) url("../img/pattern.png");
+    height: 180px;
+}
+
+ #pattern img{
+    height: 90px;
+    margin-top: 4%;
+} 
+
+#celeste{
+    color: rgb(4, 142, 255);
+}
+
+/* stile h1 */
+
+h1 {
+    margin-left: 5px;
+    font-size: 8vh; 
+}  
+
+/* classi usati nell'intestazione */
+
+.gray{
+    margin-left: 5px;
+    color: gray;
+}
+
+.size{
+    margin-left: 5px;
+    margin-top: 30px;
+    width: 49%;
+    height: 600px;
+}
+
+.margine{
+    margin-left: 5px;
+}
+
+/* stile main */
+
+main{
+    font-family: 'Roboto', sans-serif;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+/* id usati nel corpo */
+
+#lista{
+    padding-left:20px;
+}
+
+#tabella{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+/* stile tabella */
+
+table, td, th{
+    text-align: left;
+    padding-right: 20%;
+}
+
+th, td{
+    width: 500px;
+}
+
+th{
+    color: white;
+    background-color: rgb(43, 139, 250);
+}
+
+/* classi usati nel corpo */
+
+.principale{
+    margin-left: 5px;
+    margin-top: 40px;
+}
+
+.light_blue{
+    background-color: rgb(115, 216, 250);
+}
+
+.principale_2{
+    margin-left: 5px;
+    margin-top: 40px;
+}
+
+.container{
+    position:relative;
+    color: white;
+}
+
+.container_2{
+    position:relative;
+    color: white;
+}
+
+.top_left{
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    font-size: x-large;
+}
+
+/* footer */
+
+footer{
+    padding-left: 200px;
+    padding-right: 200px;
+}
