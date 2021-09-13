@@ -51,10 +51,6 @@ main{
 
 /* id usati nel corpo */
 
-#yellow{
-    background-color: yellow;
-}
-
 #lista{
     padding-left:20px;
 }
@@ -85,6 +81,10 @@ th{
 .principale{
     margin-left: 5px;
     margin-top: 40px;
+}
+
+.yellow{
+    background-color: yellow;
 }
 
 .light_blue{
