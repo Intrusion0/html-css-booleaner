@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+}
+
+/* Id usati nell'intestazione*/
+
+#pattern{
+    background: rgb(43, 139, 250) url("../img/pattern.png");
+    height: 180px;
+}
+
+ #pattern img{
+    height: 90px;
+    margin-top: 4%;
+} 
+
+#celeste{
+    color: rgb(4, 142, 255);
+}
+
+/* stile h1 */
+
+h1 {
+    margin-left: 5px;
+    font-size: 8vh; 
+}  
+
+/* classi usati nell'intestazione */
+
+.gray{
+    margin-left: 5px;
+    color: gray;
+}
+
+.size{
+    margin-top: 30px;
+    width: 49%;
+    height: 600px;
+}
+
+main{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* classi usati nel corpo */
+
+.principale{
+    margin-top: 30px;
+}
