@@ -33,17 +33,60 @@ h1 {
 }
 
 .size{
+    margin-left: 5px;
     margin-top: 30px;
     width: 49%;
     height: 600px;
 }
 
+.margine{
+    margin-left: 5px;
+}
+
+/* stile main */
+
 main{
     font-family: 'Roboto', sans-serif;
+}
+
+/* id usati nel corpo */
+
+#yellow{
+    background-color: yellow;
+}
+
+#lista{
+    padding-left:20px;
+}
+
+#tabella{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+/* stile tabella */
+
+table, td, th{
+    text-align: left;
+    padding-right: 20%;
+}
+
+th, td{
+    width: 500px;
+}
+
+th{
+    color: white;
+    background-color: rgb(43, 139, 250);
 }
 
 /* classi usati nel corpo */
 
 .principale{
-    margin-top: 30px;
+    margin-left: 5px;
+    margin-top: 40px;
+}
+
+.light_blue{
+    background-color: rgb(115, 216, 250);
 }
